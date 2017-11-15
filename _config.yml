@@ -1,5 +1,5 @@
 # Site settings
-title: KOKO Blog
+title: KOKO
 SEOTitle: KOKO的博客 | KOKO Blog
 header-img: img/home-bg.jpg
 email: zengweijun0317@gmail.com
@@ -56,7 +56,7 @@ kramdown:
 
 # 评论系统
 # Disqus settings（https://disqus.com/）
-disqus_username: qiubaiying
+disqus_username: kokozeng
 
 # 多说 将于2017年6月1日正式关停服务，建议使用 Disqus（http://dev.duoshuo.com/threads/58d1169ae293b89a20c57241）
 # Duoshuo settings
