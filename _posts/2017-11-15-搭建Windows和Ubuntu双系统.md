@@ -11,7 +11,7 @@ tags:
     - Windows
 ---
 
-# 搭建Window和Ubuntu双系统
+# 搭建Windows和Ubuntu双系统
 
 最近很多小伙伴问我怎么搭建双系统，回答的多了觉得还是写个详细的教程解答比较方便一点，也节约时间。这篇教程本意是写给小白看的，我会尽量的详细一些。
 先说几个问题。
@@ -137,6 +137,7 @@ tags:
 用于：EXT4日志文件系统
 
 ### 引导位置
+
 如果需要从Windows引导，那么就选择/boot分区所在的盘符。但是这样装好Ubuntu之后，还需要在Windows下载EasyBCD将Ubuntu系统调出来。
 
 直接从Ubuntu引导，选择`/dev/sda` 盘符。那么重新开机后，会出现一个选项，选择是进入Windows系统还是Ubuntu系统。
