@@ -43,7 +43,9 @@ def get_page_html(url):
 
 r.encoding是将网页按照指定格式编码。requests自带的函数内部，有编写一定的编码机制。但也存在一些时候不能够正确的识别所在网页的编码格式。自己check一下网页的编码格式，然后指定编码格式会减少出现乱码的情况。
 
-介绍一种查看网页编码格式的方法，浏览器进入开发者模式，选择Console,在console窗口输入“document.charset”或“document.characterSet”查看。然后把该窗口出现的编码格式替换上述代码的UTF-8。
+介绍一种查看网页编码格式的方法，浏览器进入开发者模式，选
+择Console,在console窗口输入‘document.charset'或者可以输入’document.characterSet'进行查看。然后把该窗口出现的编码格式替换上述代码的UTF-8。
+
 
 
 
@@ -54,7 +56,7 @@ sys.setdefaultencoding( "utf-8" )
 ```
 
 
-在python中，编码解码其实是不同编码系统间的转换，默认情况下，转换目标是Unicode，即编码unicode→str，解码str→unicode，其中str指的是字节流，而str.decode是将字节流str按给定的解码方式解码，并转换成utf-8形式，u.encode是将unicode类按给定的编码方式转换成字节流str。注意调用encode方法的是unicode对象，生成的是字节流；调用decode方法的是str对象（字节流），生成的是unicode对象。若str对象调用encode会默认先按系统默认编码方式decode成unicode对象再encode，忽视了中间默认的decode往往导致报错。
+>在python中，编码解码其实是不同编码系统间的转换，默认情况下，转换目标是Unicode，即编码unicode→str，解码str→unicode，其中str指的是字节流，而str.decode是将字节流str按给定的解码方式解码，并转换成utf-8形式，u.encode是将unicode类按给定的编码方式转换为字节流str。注意调用encode方法的是unicode对象，生成的是字节流；调用decode方法的是str对象（字节流），生成的是unicode对象。若str对象调用encode会默认先按系统默认编码方式decode成unicode对象再encode，忽视了中间默认的decode往往导致报错。
 
 因为大多数网页都是使用utf-8的编码方式，在开头加上这一段，可以防止出现将抓取下来的网页保存成txt时的报错。
 
