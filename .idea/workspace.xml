@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de5f4c40-55a6-4c7e-bb86-73630aff64a7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-12-13-满身风雨她从海上来.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-01-03-Python爬虫（一）requests模块和re模块的简单应用.md" afterPath="$PROJECT_DIR$/_posts/2018-01-03-Python爬虫（一）requests模块和re模块的简单应用.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,21 +59,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-01-03-Python爬虫（一）requests模块和re模块的简单应用.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-01-03-Python爬虫（一）requests模块和re模块的简单应用.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2018-01-03-Python爬虫（一）requests模块和re模块的简单应用.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-670">
-              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="125">
+              <caret line="56" column="306" lean-forward="false" selection-start-line="56" selection-start-column="306" selection-end-line="56" selection-end-column="306" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="keynote.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/keynote.html">
+      <file leaf-file-name="2017-12-13-满身风雨她从海上来.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-12-13-满身风雨她从海上来.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -135,6 +137,7 @@
         <option value="$PROJECT_DIR$/_posts/2017-11-15-搭建Windows和Ubuntu双系统.md" />
         <option value="$PROJECT_DIR$/_posts/2017-11-15-Pytorch-基础教程.md" />
         <option value="$PROJECT_DIR$/_posts/2017-12-03-古老的敌意-艺术与科学-阿多尼斯.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-12-13-满身风雨她从海上来.md" />
         <option value="$PROJECT_DIR$/_posts/2018-01-03-Python爬虫（一）requests模块和re模块的简单应用.md" />
       </list>
     </option>
@@ -143,6 +146,9 @@
     <option name="y" value="24" />
     <option name="width" value="1366" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -348,9 +354,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23718888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23718888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -377,14 +383,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/feed.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -727,8 +725,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-01-03-Python爬虫（一）requests模块和re模块的简单应用.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-670">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="125">
+          <caret line="56" column="306" lean-forward="false" selection-start-line="56" selection-start-column="306" selection-end-line="56" selection-end-column="306" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-12-13-满身风雨她从海上来.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
