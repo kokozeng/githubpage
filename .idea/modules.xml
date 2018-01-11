@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/githubpage.iml" filepath="$PROJECT_DIR$/.idea/githubpage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../jcintern/.idea/jcintern.iml" filepath="$PROJECT_DIR$/../../jcintern/.idea/jcintern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../MLcourse/weibo-predict/.idea/weibo-predict.iml" filepath="$PROJECT_DIR$/../../MLcourse/weibo-predict/.idea/weibo-predict.iml" />
     </modules>
   </component>
 </project>
