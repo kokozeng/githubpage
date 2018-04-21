@@ -1,0 +1,26 @@
+---
+layout:     post
+title:      我在windows系统上常用的软件
+subtitle:   实用工具系列
+date:       2018-04-21
+author:     koko
+header-img: img/post-bg-universe.jpg
+catalog: true
+catalog: true
+tags:
+    - Tool
+---
+
+# 我在Windows系统上常用的软件
+
+这一篇还会包括一些chrome的插件，不出意外还有有一个ubuntu的姊妹篇，反正不会有mac篇就对了哈哈哈。
+
+### 眼睛护士
+
+![](2018-04-xx-我在windows系统上常用的软件_files/1.jpg)
+
+这是一款可能对于EE/CS学生/从业者还是非常需要的一款软件了，不知道大家和我是不是一样的，如果没有一个定时提醒，
+我可能会经常忘记我自己到底使用了多久的电脑。这就有一个不太好的地方是，当你较为专注的盯着屏幕的时候，你的眨眼
+次数可能都是很少的。所以，还是很需要定时休息一下了。
+
+### 
