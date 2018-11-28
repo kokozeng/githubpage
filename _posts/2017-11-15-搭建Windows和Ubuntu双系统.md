@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      搭建Windows和Ubuntu双系统
-subtitle:   Windows7和Ubuntu双系统
+subtitle:   2017-11-15 环境搭建
 date:       2017-11-15
 author:     koko
 header-img: img/post-bg-ios9-web.jpg
