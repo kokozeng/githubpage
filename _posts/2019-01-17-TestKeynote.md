@@ -16,11 +16,17 @@ tags:
 ### 习惯
 
 sleep time 不晚于00:00
+
 get up time 不晚于08:30
+
 play phone time 不多于4h
+
 work 必须有清晰的完成度
+
 study 必须在一个大模块下面学习三个小点，不在一个大模块下的就不算数
+
 leetcode 每周必须六道题
+
 english 每天必须学习三十分钟
 
 
