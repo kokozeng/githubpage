@@ -1,9 +1,8 @@
 ---
 layout:     keynote
-title:      "Test Keynote"
+title:      "习惯养成计划"
 subtitle:   "🎞  Slides"
-iframe:     "https://music.163.com/#/event?id=6183259012&uid=68534714&userid=68534714"
-#iframe:     "https://yanshuo.io/assets/player/?deck=5c403f5a808ca40071d57be9#/"
+iframe:     "https://yanshuo.io/assets/player/?deck=5c40446d9f5454007026fa0a#/1"
 navcolor:   "invert"
 date:       2019-01-17
 author:     "KOKO"
@@ -14,6 +13,15 @@ tags:
 
 > 下滑这里查看更多内容
 
+### 习惯
+
+sleep time 不晚于00:00
+get up time 不晚于08:30
+play phone time 不多于4h
+work 必须有清晰的完成度
+study 必须在一个大模块下面学习三个小点，不在一个大模块下的就不算数
+leetcode 每周必须六道题
+english 每天必须学习三十分钟
 
 
 ### Notes  
