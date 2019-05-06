@@ -7,8 +7,7 @@ author:     koko
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - Ubuntu
-    - Windows
+    - Tool
 ---
 
 # 搭建Windows和Ubuntu双系统
