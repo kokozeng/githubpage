@@ -8,8 +8,8 @@ header-img: img/post-bg-universe.jpg
 catalog: true
 catalog: true
 tags:
-
-- DeepLearning.ai
+- 深度学习
+- deepLearning.ai
 ---
 
 # 什么是神经网络？
