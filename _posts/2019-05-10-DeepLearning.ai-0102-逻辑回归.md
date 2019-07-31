@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:     DeepLearning.ai-0102-深度学习概括
+title:     DeepLearning.ai-0102-逻辑回归
 subtitle:   2019-05-10 深度学习课程
 date:       2019-05-10
 author:     koko
@@ -31,30 +31,49 @@ $$
 ### 交叉熵损失函数怎么来的？
 
 首先，预测输出$$\hat y$$的表达式可以写成：
+
+
 $$
 \hat y=\sigma(w^Tx+b)
 $$
+
+
 其中，$$\sigma(z)=\frac{1}{1+exp(-z)}$$。$$\hat y$$可以看成是预测输出为正类（+1）的概率：
+
+
 $$
 \hat y=P(y=1|x)
 $$
+
+
 那么，当$$y=1$$时：
+
+
 $$
 p(y|x)=\hat y
 $$
+
 当$$y=0$$时：
+
 $$
 p(y|x)=1-\hat y
 $$
+
+
 我们把上面两个式子整合到一个式子中，得到：
+
 $$
 P(y|x)=\hat y^y(1-\hat y)
 $$
+
 由于log函数的单调性，可以对上式$$P(y|x)$$进行$$log$$处理：
+
 $$
 log\ P(y|x)=log\ \hat y^y(1-\hat y)^{(1-y)}=y\ log\ \hat y+(1-y)log(1-\hat y)
 $$
+
 我们希望上述概率$$P(y|x)$$越大越好，对上式加上负号，则转化成了单个样本的Loss function，越小越好，也就得到了我们之前介绍的逻辑回归的Loss function形式。
+
 $$
 L=-(y\ log\ \hat y+(1-y)log(1-\hat y))
 $$
