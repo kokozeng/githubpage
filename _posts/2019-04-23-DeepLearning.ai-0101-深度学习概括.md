@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:     DeepLearning.ai-Week1-深度学习概括
+title:     DeepLearning.ai-0101-深度学习概括
 subtitle:   2019-04-23 深度学习课程
 date:       2019-04-23
 author:     koko
