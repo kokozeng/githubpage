@@ -66,15 +66,13 @@ $$
 P(y|x)=\hat y^y(1-\hat y)
 $$
 
-> 由于log函数的单调性，可以对上式$$P(y|x)$$进行$$log$$处理：
->
+由于log函数的单调性，可以对上式进行$$log$$处理：
 
 $$
 log\ P(y|x)=log\ \hat y^y(1-\hat y)^{(1-y)}=y\ log\ \hat y+(1-y)log(1-\hat y)
 $$
 
-> 我们希望上述概率$$P(y|x)$$越大越好，对上式加上负号，则转化成了单个样本的Loss function，越小越好，也就得到了我们之前介绍的逻辑回归的Loss function形式。
->
+我们希望上述概率越大越好，对上式加上负号，则转化成了单个样本的Loss function，越小越好，也就得到了我们之前介绍的逻辑回归的Loss function形式。
 
 $$
 L=-(y\ log\ \hat y+(1-y)log(1-\hat y))

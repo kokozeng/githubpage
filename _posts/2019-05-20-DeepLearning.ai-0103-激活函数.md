@@ -18,7 +18,7 @@ tags:
 
 ## Sigmoid
 
-![image-20190731162951502](/Users/weijunzeng/Documents/Work/Code/image/image-20190731162951502.png)
+![image-20190731162951502](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-31-121548.jpg)
 
 **导数：**
 
@@ -28,11 +28,11 @@ $$
 $$
 **求导过程：**
 
-![img](/Users/weijunzeng/Documents/Work/Code/image/70.jpeg)
+![img](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-31-121549.jpg)
 
 ## tanh
 
-![image-20190731172359865](/Users/weijunzeng/Documents/Work/Code/image/image-20190731172359865.png)
+![image-20190731172359865](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-31-121550.jpg)
 
 **原函数与导数：**
 $$
@@ -47,7 +47,7 @@ $$
 
 ## Relu
 
-![image-20190731172231363](/Users/weijunzeng/Documents/Work/Code/image/image-20190731172231363.png)
+![image-20190731172231363](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-31-121547.jpg)
 
 **原函数：**
 
@@ -82,7 +82,7 @@ $$
 
 ## Leaky Relu
 
-![image-20190731163125397](/Users/weijunzeng/Documents/Work/Code/image/image-20190731163125397.png)
+![image-20190731163125397](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-07-31-121551.jpg)
 
 **原函数：**
 
