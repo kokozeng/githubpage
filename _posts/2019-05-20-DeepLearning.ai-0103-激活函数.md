@@ -9,7 +9,7 @@ catalog: true
 catalog: true
 tags:
 - 深度学习
-- deepLearning.ai
+- DeepLearning.ai
 ---
 
 [TOC]
