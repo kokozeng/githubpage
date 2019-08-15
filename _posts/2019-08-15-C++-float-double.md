@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:     	[C++]float、double、long double
+title:     	C++ float、double、long double
 subtitle:   2019-08-15 笔记
 date:       2019-08-15
 author:     koko
@@ -33,7 +33,7 @@ C语言和C#语言中，对于浮点类型的数据采用单精度类型（float
 
 ## 存储方式
 
-![image-20190813172709060](/Users/weijunzeng/Documents/Work/Code/image/image-20190813172709060.png)
+![image-20190813172709060](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-08-15-023457.jpg)
 
 R32.24和R64.53的存储方式都是用科学计数法来存储数据的。
 
@@ -69,7 +69,7 @@ R32.24和R64.53的存储方式都是用科学计数法来存储数据的。
 
 ## 计算过程
 
-![image-20190813172949405](/Users/weijunzeng/Documents/Work/Code/image/image-20190813172949405.png)
+![image-20190813172949405](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-08-15-023447.jpg)
 
 所有的小数被转换成指数形式后，尾数的整数部分都为1，无需在内存中提现出来，所以干脆将其截去，只把小数点后面的二进制放入内存中的尾数部分（23Bits）。对于 1.0011101，尾数部分就是 0011101。
 
