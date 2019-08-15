@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:     	C++ float、double、long double
+title:     	「C++」 float、double、long double
 subtitle:   2019-08-15 笔记
 date:       2019-08-15
 author:     koko
@@ -13,7 +13,7 @@ tags:
 ---
 
 
-# float、double、long double
+# 「C++」float、double、long double
 
 ## 总览
 
