@@ -1,0 +1,112 @@
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration:none;
+    &:hover, &:focus{
+       text-decoration:none;
+    }
+}
+.row.m0{
+    margin: 0px;
+}
+body{
+    line-height: 24px;
+    font-size: 15px;
+    overflow-x: hidden !important;
+    font-family: $mon;
+    font-weight: 400;
+    color: $baseColor;
+    position: relative;
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background: $baseColor;
+}
+
+::selection{
+  background-color:$baseColor;
+  color:#fff;
+}
+
+-webkit-::selection{
+    background-color:$baseColor;
+    color:#fff;
+}
+
+::-moz-selection{
+    background-color:$baseColor;
+    color:#fff;
+}
+
+body, p, h1, h2, h3, h4, h5, h6{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-space{
+    padding-top: 90px;
+}
+.full_pad{
+    padding-left: 75px;
+    padding-right: 75px;
+}
+#success{
+    display: none;
+}
+#error{
+    display: none;
+}
+
+.sec-title{
+    text-align: center;
+    position: relative;
+    padding-bottom: 25px;
+    margin-bottom: 58px;
+    &:before{
+        content: "";
+        width: 170px;
+        height: 1px;
+        background: $baseColor;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+    }
+    h2{
+        font: 400 35px $play;
+        color: $baseColor;
+    }
+    p{
+        font: 400 12px/20px $play;
+        color: $gray;
+        font-style: italic;
+        padding-top: 5px;
+    }
+}
+
+.title-tag{
+    font: 400 12px/20px $play;
+    letter-spacing: 0.72px;
+    color: $gray;
+    font-style: italic;
+}
+
+.sec-relative{
+    position: relative;
+}
+/* Main title css
+============================================================================================ */
+
+/* End Main title css
+============================================================================================ */
+
+

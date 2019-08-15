@@ -1,0 +1,362 @@
+/*===========Start pre-loader css =============*/
+.loader-container {
+    position: fixed;
+    float: left;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background-image: -moz-linear-gradient( -15deg, rgb(0,0,0) 0%, rgb(35,35,35) 100%);
+    background-image: -webkit-linear-gradient( -15deg, rgb(0,0,0) 0%, rgb(35,35,35) 100%);
+    background-image: -ms-linear-gradient( -15deg, rgb(0,0,0) 0%, rgb(35,35,35) 100%);
+    z-index: 999999;
+}
+.loader-container .loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+}
+#loading-center-absolute {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 200px;
+    width: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
+    -ms-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+.object {
+    -moz-border-radius: 50% 50% 50% 50%;
+    -webkit-border-radius: 50% 50% 50% 50%;
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid transparent;
+    border-left: 3px solid #fff;
+    border-right: 3px solid transparent;
+    -webkit-animation: animate 2s infinite;
+    animation: animate 2s infinite;
+}
+
+#object_one {
+    left: 75px;
+    top: 75px;
+    width: 50px;
+    height: 50px;
+}
+
+#object_two {
+    left: 65px;
+    top: 65px;
+    width: 70px;
+    height: 70px;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+#object_three {
+    left: 55px;
+    top: 55px;
+    width: 90px;
+    height: 90px;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+#object_four {
+    left: 45px;
+    top: 45px;
+    width: 110px;
+    height: 110px;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+.l-text{
+    font:400 19px $kas;
+    color: #fff;
+}
+@-webkit-keyframes animate {
+    50% {
+        -ms-transform: rotate(360deg) scale(0.8);
+        -webkit-transform: rotate(360deg) scale(0.8);
+        transform: rotate(360deg) scale(0.8);
+    }
+}
+
+@keyframes animate {
+    50% {
+        -ms-transform: rotate(360deg) scale(0.8);
+        -webkit-transform: rotate(360deg) scale(0.8);
+        transform: rotate(360deg) scale(0.8);
+    }
+}
+/*===========End pre-loader css =============*/
+
+/* Main Menu title css
+============================================================================================ */
+.main_menu_area{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    top: 0px;
+    z-index: 99;
+    .navbar-default{
+        border-radius: 0px;
+        border: none;
+        box-shadow: none;
+        margin-bottom: 0px;
+        background: transparent;
+        .navbar-header{
+            margin: 0;
+            .navbar-brand{
+                padding: 0px;
+                margin-left: 0px;
+                line-height: 87px;
+                height: 90px;
+                img{
+                    display: inline-block;
+                }
+            }
+        }
+        .navbar-collapse{
+            text-align: right;
+            .menu{
+                float: none;
+                text-align: right;
+                display: inline-block;
+                li{
+                    float: none;
+                    display: inline-block;
+                    padding-right: 104px;
+                    perspective: 2000px;
+                    a{
+                        padding: 0px;
+                        background: transparent;
+                        color: $gray;
+                        @include transition;
+                        text-transform: capitalize;
+                        text-shadow: none;
+                        font: 600 16px $mon;
+                        line-height: 90px;
+                        position: relative;
+                        &:before{
+                            content: ".";
+                            width: 100%;
+                            height: 100%;
+                            top: 0;
+                            right: -5px;
+                            color: transparent;
+                            position: absolute;
+                            @include transition;
+                        }
+                    }
+                    &.submenu{
+                        .dropdown-menu{
+                            @media(min-width: 768px){
+                                min-width: 200px;
+                                list-style: none;
+                                padding: 0px;
+                                position: absolute;
+                                background: #fff;
+                                display: block;
+                                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+                                left: 0;
+                                border: 0px;
+                                border-radius: 0px;
+                                top: 60%;
+                                transition: all 0.3s ease-out;
+                                z-index: 5;
+                                opacity: 0;
+                                visibility: hidden;
+                            }
+                            li{
+                                display: block;
+                                padding-right: 0px;
+                                a{
+                                    display: block;
+                                    font: 400 16px/40px $mon;
+                                    padding: 0px 10px;
+                                    &:hover{
+                                        color: #fff;
+                                        background: $baseColor;
+                                        &:before{
+                                            display: none;
+                                        }
+                                    }
+                                    &:before{
+                                        display: none;
+                                    }
+                                }
+                                & + li{
+                                    border-top: 1px solid #ededed;
+                                }
+                                .dropdown-menu{
+                                    transition: all 0.3s ease-in;
+                                    display: block;
+                                    position: absolute;
+                                    right: 100%;
+                                    transition: all .3s ease-out;
+                                    margin: 0px;
+                                    top: 60%;
+                                    left: auto;
+                                    &:before{
+                                        display: none;
+                                    }
+                                    @media (min-width: 768px){
+                                        visibility: hidden;
+                                        opacity: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &:hover,&:focus{
+                        @media(min-width: 768px){
+                            &.submenu{
+                                .dropdown-menu{
+                                    top: 100%;
+                                    opacity: 1;
+                                    visibility: visible;
+                                    li{
+                                        &:hover{
+                                            @media (min-width: 768px){
+                                                .dropdown-menu{
+                                                    top: 0px;
+                                                    visibility: visible;
+                                                    opacity: 1;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &:hover, &.active{
+                        a{
+                            color: $baseColor;
+                            &:before{
+                                color: $baseColor;
+                            }
+                        }
+                    }
+                }
+            }
+            .navbar-nav.navbar-right{
+                li{
+                    a{
+                        line-height: 90px;
+                        font-size: 18px;
+                        color: $gray;
+                        padding: 0px;
+                    }
+                    &:last-child{
+                        a{
+                            padding-right: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.affix{
+        position: fixed;
+        z-index: 1043;
+        background: rgba(255, 255, 255, .98);
+        box-shadow: 0px 1px 30px 0px rgba(0, 0, 0, 0.04);
+        top: 0px;
+        left: 0px;
+        width: 100%;
+    }
+}
+/* End Main Menu title css
+============================================================================================ */
+
+
+
+/* Offcanvas Menu css
+============================================================================================ */
+.offcanvas_menu_click{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 1063;
+    opacity: 0;
+    @include transition;
+    visibility: hidden;
+    .off_menu_inner{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        .off_menu_relative{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            &:before{
+                content: "";
+                background: rgba(35, 35, 35, .7);
+                display: block;
+                height: 100%;
+            }
+            ul{
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                max-width: 350px;
+                margin-right: -15px;
+                margin-bottom: -20px;
+                li{
+                    display: inline-block;
+                    margin-right: 15px;
+                    margin-bottom: 20px;
+                    a{
+                        font-size: 20px;
+                        color: #fff;
+                        font-family: $mon;
+                        text-transform: uppercase;
+                        @include transition;
+                        display: inline-block;
+                        position: relative;
+                        &:before{
+                            content: ".";
+                            position: absolute; 
+                            right: -6px;
+                            bottom: 0px;
+                            color: #fff;
+                            opacity: 0;
+                            @include transition;
+                        }
+                    }
+                    &:last-child{
+                        margin-right: 0px;
+                        margin-bottom: 0px;
+                    }
+                    &:hover{
+                        a{
+                            text-decoration: underline;
+                            &:before{
+                                opacity: 1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.open{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+/* End Offcanvas Menu css
+============================================================================================ */

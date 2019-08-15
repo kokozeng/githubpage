@@ -1,0 +1,81 @@
+/*============search form css =============*/
+.searchForm{
+    background: rgba(35, 35, 35, .75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    animation: fade-zoom-in .3s forwards;
+    opacity: 0;
+    visibility: hidden;
+    &.show{
+        z-index: 999999;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+.cross-btn{
+    background-color: transparent;
+    border: 0;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-right: 50px;
+    color: #fff;
+    text-align: right;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1063;
+    i{
+        transition: all 400ms linear;
+        display: inline-block;
+    }
+}
+.search_row {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    right: 0;
+    transform: translate(-50%,-50%);
+    top: 46%;
+    animation: fade-zoom-in .3s forwards;
+    text-align: center;
+    color: $gray;
+    max-width: 500px;
+    .input-group{
+        width: 100%;
+        .form-control{
+            display: block;
+            width: 100%;
+            text-align: center;
+            border: 0;
+            box-shadow: none;
+            font: 400 40px $play;
+            height: auto;
+            background: transparent;
+            color: #fff;
+            @include placeholder{
+                color: rgba(255, 255, 255, 0.65);
+            }
+        }
+    }
+    p{
+        color: #fff;
+    }
+}
+@-webkit-keyframes autofill {
+    to {
+        background: transparent;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}

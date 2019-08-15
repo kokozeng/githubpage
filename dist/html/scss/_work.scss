@@ -1,0 +1,83 @@
+/* Latest Work area css
+============================================================================================ */
+.m-b{
+    margin-bottom: -260px;
+}
+.latest_work_area{
+    padding-top: 130px;
+}
+.latest_work_inner{
+    margin: -10px -10px;
+    .work_item{
+        padding: 10px 10px;
+    }
+}
+.latest_work_item{
+    position: relative;
+    @include transition;
+    img{
+        max-width: 100%;
+    }
+    .l_work_hover{
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        max-width: 270px;
+        background: rgba(255, 255, 255, .98);
+        padding: 30px 12px 40px 12px;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        transition-property: transform;
+        transition-timing-function: ease-out;
+        transition-duration: 0.3s;
+        h6{
+            font-size: 12px;
+            color: $gray;
+            font-family: $play;
+            font-style: italic;
+            letter-spacing: 2.4px;
+            padding-bottom: 10px;
+            overflow: hidden;
+            span{
+                transform: translateY(-100%);
+                @include transition;
+                transition-delay: 0.2s;
+                display: block;
+            }
+        }
+        h4{
+            font-size: 13.97px;
+            font-family: $play;
+            color: $baseColor;
+            text-transform: uppercase;
+            letter-spacing: 1.11px;
+            line-height: 18px;
+            transform: scale(0.98);
+            opacity: 0;
+            @include transition;
+            transition-delay: 0.2s;
+        }
+    }
+    &:hover{
+        box-shadow:0px 5px 17px 2px rgba(0, 0, 0, 0.132);
+        .l_work_hover{
+            transform: scaleX(1);
+            h6{
+                span{
+                    transform: translateY(0%);
+                }
+            }
+            h4{
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    }
+}
+/* End Latest Work area css
+============================================================================================ */
+
+.l-portfolio-bg{
+    background: #faf8f7;
+    padding: 65px 0px 75px;
+}

@@ -1,0 +1,37 @@
+/*font Variables*/
+$mon: 'Montserrat', sans-serif;
+$play: 'Playfair Display', serif;
+$hind: 'Hind', sans-serif;
+$kas: 'Kaushan Script', cursive;
+
+
+/*Color Variables*/
+
+$baseColor: #232323;
+$gray: #78797b;
+
+
+
+// Mixins
+@mixin transition($property: all, $duration: 400ms, $animate: linear, $delay:0s){
+    transition: $property $duration $animate $delay; 
+}
+
+// Placeholder Mixins
+
+@mixin placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}
+
+.col-md-offset-right-1 {
+    margin-right: 8.33333333%;
+}
+// Font family link
+
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700|Montserrat:100,200,300,400,400i,500,500i,600,700,800,900|Playfair+Display:400,400i,700,700i,900');
+
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+

@@ -1,0 +1,121 @@
+/* Footer area css
+============================================================================================ */
+.footer_area{
+    .footer_bg{
+        background: #fbfbfb;
+        padding-top: 100px;
+        .footer_copyright{
+            border-top: 1px solid $baseColor;
+            text-align: center;
+            padding: 20px 0px 15px 0px;
+            h6{
+                color: $baseColor;
+                font-size: 10px;
+                text-align: center;
+                text-transform: uppercase;
+                margin-bottom: 8px;
+                letter-spacing: 1px;
+                a{
+                    color: $baseColor;
+                }
+            }
+            ul{
+                li{
+                    display: inline-block;
+                    margin-right: 12px;
+                    a{
+                        color: $baseColor;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+        &.footer-padtop{
+            padding-top: 382px;
+        }
+        &.contact-f{
+            padding-top: 170px;
+        }
+        &.footer-pad-top{
+            padding-top: 250px;
+        }
+    }
+}
+
+
+.footer_instagram_area{
+    margin-bottom: 70px;
+    overflow: hidden;
+    clear: both;
+    .follow_me_inner{
+        h3{
+            text-align: center;
+            font-size: 35px;
+            line-height: 42px;
+            color: $baseColor;
+            font-family: $play;
+            z-index: 5;
+            position: relative;
+        }
+        .instagram_box{
+            height: 218px;
+            width: 218px;
+            margin: auto;
+            background-color: rgb(250, 248, 247);
+            box-shadow: 0px 0px 30px 0px rgba(197, 197, 197, 0.15);
+            transform: rotate(45deg);
+            position: relative;
+            z-index: 2;
+            .instagram_box_inner{
+                transform: rotate(-45deg);
+                position: absolute;
+                width: 100%;
+                text-align: center;
+                left: 0px;
+                top: 50%;
+                margin-top: -4px;
+                h4{
+                    font-family: $kas;
+                    position: relative;
+                    z-index: 2;
+                    font-size: 18px;
+                    color: $baseColor;
+                    letter-spacing: 1.8px;
+                    &:before{
+                        content: "\f16d";
+                        color: #f3eaea;
+                        position: absolute;
+                        left: 0px;
+                        width: 100%;
+                        text-align: center;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        font: normal normal normal 72px/1 FontAwesome;
+                        z-index: -1;
+                    }
+                }
+            }
+        }
+    }
+    .instagram_list{
+        margin-right: -30px;
+        margin-bottom: -30px;
+        overflow: hidden;
+        clear: both;
+        li{
+            width: calc(100% / 2);
+            float: left;
+            overflow: hidden;
+            a{
+                padding-right: 30px;
+                display: block;
+                padding-bottom: 30px;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+/* End Footer area css
+============================================================================================ */

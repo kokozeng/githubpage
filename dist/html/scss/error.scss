@@ -1,0 +1,63 @@
+.error-area{
+    position: relative;
+    .error-bg{
+        background: #faf8f7;
+        padding: 0px;
+        @media (min-width:1580px){
+            padding: 100px 100px 0px;
+        }
+        .error-img{
+            background: url("../img/ErrorPage.jpg") no-repeat scroll center 0;
+            background-size: cover;
+            margin-bottom: -147px;
+            .error-content{
+                padding: 168px 0px 200px;
+                text-align: center;
+                color: #fff;
+                font-family: $kas;
+                position: relative;
+                .hom-btn{
+                    position: absolute;
+                    bottom: 55px;
+                    right: 0;
+                    font: 700 20px/27px $mon;
+                    text-transform: uppercase;
+                    color: #fff;
+                    transition: all 0.5s linear;
+                    &:before{
+                        content: "";
+                        width: 100%;
+                        height: 2px;
+                        background: #fff;
+                        top: -10px;
+                        position: absolute;
+                        transition: all 0.5s linear;
+                    }
+                    &:hover{
+                        color: $baseColor;
+                        &:before{
+                            background: $baseColor;
+                            top: 11px;
+                        }
+                    }
+                }
+            }
+            h2{
+                font-size: 41px;
+                line-height: 52px;
+                font-style: italic;
+                letter-spacing: 2.50px;
+                font-weight: 400;
+                text-shadow: 2.5px 4.33px 5px rgba(0, 0, 0, 0.157);
+            }
+            h1{
+                font-size: 150px;
+                letter-spacing: 21px;
+            }
+            h6{
+                font-size: 60px;
+                letter-spacing: 0.30px;
+            }
+        }
+    }
+}

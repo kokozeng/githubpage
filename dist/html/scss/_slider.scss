@@ -1,0 +1,191 @@
+/* Home Slider css
+============================================================================================ */
+.main_slider{
+    position: relative;
+}
+.slider_bg_inner{
+    padding-right: 75px;
+    overflow: hidden;
+    .slider_bg{
+        .item{
+            img{
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+    }
+}
+.text_slider_area{
+    position: absolute;
+    width: 100%;
+    bottom: 65px;
+    left: 0px;
+    z-index: 1;
+    .text_slider{
+        background: #fff;
+        padding: 33px 40px 38px 40px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.004);
+        .item{
+            h2{
+                font-size: 40px;
+                color: $baseColor;
+                font-family: $play;
+                span{
+                    font-size: 20px;
+                    color: $baseColor;
+                    font-family: $play;
+                    font-style: italic;
+                    margin-right: 112px;
+                    position: relative;
+                    top: -4px;
+                    &:before{
+                        content: "";
+                        height: 12px;
+                        width: 1px;
+                        background: #bbbcbd;
+                        position: absolute;
+                        right: -40px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+        }
+    }
+}
+.text_slider_inner{
+    position: relative;
+    .home_screen_nav{
+        position: absolute;
+        right: 42px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 3;
+        i{
+            font-size: 30px;
+            color: $gray;
+            cursor: pointer;
+            margin-right: 85px;
+            @include transition;
+            & + i{
+                margin-right: 0px;
+                position: relative;
+                &:after{
+                    content: "";
+                    height: 12px;
+                    width: 1px;
+                    position: absolute;
+                    left: -42px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    background: #bbbcbd;
+                }
+            }
+            &:hover{
+                color: $baseColor;
+            }
+        }
+    }
+}
+/* End Home Slider css
+============================================================================================ */
+
+/*============== right menu css ============*/
+.offcanvus_menu{
+    position: absolute;
+    right: 0px;
+    top: 75px;
+    width: 75px;
+    min-height: 772px;
+    z-index: 10;
+    overflow: hidden;
+    .lang-n{
+        transform: rotate(90deg);
+        margin-top: 75px;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        width: 115px;
+        margin-left: -22px;
+        a{
+            color: $gray;
+            margin-left: 40px;
+            position: relative;
+            &:before{
+                content: "";
+                position: absolute;
+                bottom: 10px;
+                left: -34px;
+                height: 1px;
+                width: 25px;
+                background: $baseColor;
+            }
+            &.active{
+                color: $baseColor;
+                margin-left: 0px;
+                &:before{
+                    display: none;
+                }
+            }
+        }
+    }
+    .nav-button{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        width: 75px;
+        background: transparent;
+        padding: 30px 0px;
+        @include transition;
+        cursor: pointer;
+        span{
+            display: block;
+            width: 22px;
+            height: 3px;
+            background: $gray;
+            margin: auto;
+            margin-bottom: 7px;
+            @include transition;
+            + span{
+                margin-bottom: 0px;
+            }
+        }
+        .nav_inner{
+            @include transition;
+        }
+        &.open{
+            background: #faf8f7;
+            span{
+                background: $baseColor;
+            }
+            .nav_inner{
+                transform: rotate(90deg);
+            }
+        }
+    }
+    ul{
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+        li{
+            margin-bottom: 25px;
+            a{
+                font-size: 13px;
+                color: $gray;
+                transition: all 0.3s linear;
+                &:hover{
+                    color: $baseColor;
+                }
+            }
+            &:last-child{
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+/*============== right menu css ============*/
