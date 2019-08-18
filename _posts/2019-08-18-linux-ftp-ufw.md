@@ -21,7 +21,7 @@ tags:
 
 阿里云需要配置安全组：
 
-![image-20190818175108889](/Users/weijunzeng/Documents/Work/Code/image/image-20190818175108889.png)
+![image-20190818175108889](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-08-18-101309.jpg)
 
 ```shell
 apt-get update    # 更新软件
@@ -29,7 +29,7 @@ apt-get install vsftpd     # 安装vsftpd
 service vsftpd status # 查看vsftpd的状态
 ```
 
-![image-20190818174235665](/Users/weijunzeng/Documents/Work/Code/image/image-20190818174235665.png)
+![image-20190818174235665](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-08-18-101308.jpg)
 
 如果出问题，我们可以检查端口：
 
@@ -72,7 +72,7 @@ service vsftpd restart		# 重启服务
 
 ### 登陆ftp
 
-![image-20190818174924316](/Users/weijunzeng/Documents/Work/Code/image/image-20190818174924316.png)
+![image-20190818174924316](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-08-18-101306.jpg)
 
 ### 删除操作
 
