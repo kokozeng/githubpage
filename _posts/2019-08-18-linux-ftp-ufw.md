@@ -23,7 +23,7 @@ tags:
 
 ![image-20190818175108889](http://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/2019-08-18-101309.jpg)
 
-```shell
+```python
 apt-get update    # 更新软件
 apt-get install vsftpd     # 安装vsftpd
 service vsftpd status # 查看vsftpd的状态
@@ -33,7 +33,7 @@ service vsftpd status # 查看vsftpd的状态
 
 如果出问题，我们可以检查端口：
 
-```shell
+```python
 netstat -anp
 ```
 
@@ -41,21 +41,21 @@ netstat -anp
 
 然后创建想访问的目录：
 
-```shell
+```python
 mkdir /home/uftp     # 创建目录
 chmod 775 /home      # 赋予同组用户读写权限
 ```
 
 接着指定用户以及密码：
 
-```shell
+```python
 useradd -m -d /home/uftp -s /bin/sh -g root uftp		# 添加用户
 passwd uftp		# 设置密码
 ```
 
 ### 修改vsftpd配置文件
 
-```shell
+```python
 vim /etc/vsftpd.conf             # 修改配置文件
 anonymous_enable=NO/YES          # 是否允许匿名登录FTP服务器
 local_enable=NO/YES              # 是否允许本地用户登录FTP服务器
@@ -76,7 +76,7 @@ service vsftpd restart		# 重启服务
 
 ### 删除操作
 
-```shell
+```python
 userdel uftp          # 删除用户
 rm -rf /home/uftp     # 删除目录
 ```
@@ -85,7 +85,7 @@ rm -rf /home/uftp     # 删除目录
 
 ### 基本功能
 
-```shell
+```python
 sudo apt-get install ufw         # 安装
 sudo ufw enable/disable          # 启动/关闭 启动即关闭所有外部对本机的访问
 sudo ufw default deny            # 系统启动时自动开启
@@ -95,7 +95,7 @@ sudo ufw logging on|off          #	转换状态日志
 
 ### 使用举例
 
-```shell
+```python
 sudo ufw allow smtp		# 允许所有的外部IP访问本机的25/tcp (smtp)端口
 sudo ufw allow 22/tcp		# 允许所有的外部IP访问本机的22/tcp (ssh)端口
 sudo ufw allow 53		# 允许外部访问53端口(tcp/udp)
