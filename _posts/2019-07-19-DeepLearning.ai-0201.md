@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:     	DeepLearning.ai-0201-正交化-正则化-Dropout-初始化
-subtitle:   2019-07-19 笔记
+subtitle:   2019-07-19 深度学习课程
 date:       2019-07-19
 author:     koko
 header-img: img/post-bg-universe.jpg

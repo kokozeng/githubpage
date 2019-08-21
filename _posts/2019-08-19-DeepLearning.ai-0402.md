@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:     	DeepLearning.ai-0402-经典卷积神经网络
-subtitle:   2019-08-19 笔记
+subtitle:   2019-08-19 深度学习课程
 date:       2019-08-19
 author:     koko
 header-img: img/post-bg-universe.jpg
@@ -11,6 +11,7 @@ tags:
 
 - 深度学习
 - DeepLearning.ai
+- 卷积神经网络
 ---
 
 [TOC]
