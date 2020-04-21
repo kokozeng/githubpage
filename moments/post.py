@@ -1,17 +1,11 @@
 import requests
 import json
+import sys
 
 data = {
-    "content": "goodtest"
+    "content": sys.argv[1]
 }
 
-## headers中添加上content-type这个参数，指定为json格式
-""" headers = {
-    "Content-Type": "application/json",
-    "X-LC-Id": "CnfhTnKcoB87eCVAVoo0gHDj-MdYXbMMI",
-    "X-LC-Key":"1JC1HRxSsGYkNQeWp7jHNqFp",
-    "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36"
- } """
 
 headers = {
     "Content-Type": "application/json",

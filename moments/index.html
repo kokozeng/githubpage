@@ -2,14 +2,14 @@
 <html>
 
 <head>
-    <title>胡说八道</title>
+    <title>美丽新世界</title>
     <!-- <link rel="shortcut icon" href="./favicon.ico" /> -->
     <link type="text/css" rel="stylesheet" href="https://at.alicdn.com/t/font_1755564_z4mhxbw13mq.css"></link>
     <link href="https://fonts.loli.net/css?family=Noto+Serif+SC:200,300,900&display=swap&subset=chinese-simplified" rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
     <meta name="description" content="">
     <meta name="keywords" content="" />
-    <meta name="author" content="daibor" />
+    <meta name="author" content="koko" />
     <meta charset="utf-8" />
     <meta name="robots" content="index,follow" />
     <meta name="google" content="index,follow" />
@@ -21,7 +21,7 @@
 
 <body>
     <header id="header">
-        <h1>胡说八道</h1>
+        <h1>美丽新世界</h1>
     </header>
     <main id="app">
         <aside>
@@ -29,7 +29,7 @@
                 可以在这里简单介绍你自己
             </p>
         </aside>
-        <p class="tip">现在总共 b 了 {{count}} 条</p>
+        <p class="tip">现在已经说了{{count}} 条</p>
         <section class="item" v-for="item in contents" v-cloak>
             <p v-html='item.attributes.content'></p>
             <time v-bind:datetime="item.attributes.time">{{item.attributes.time}}</time>
@@ -108,12 +108,12 @@
     @media (prefers-color-scheme: dark) {
         /* 夜间模式 */
         body {
-            background-color: black;
+            background-color: rgb(0, 0, 0);
             color: white;
         }
         body .item {
             border-top: 6px solid #888888;
-            background-color: rgb(21, 32, 43);
+            background-color: rgb(43, 21, 30);
             color: #ccc;
         }
         body time {
