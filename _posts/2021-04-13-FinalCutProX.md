@@ -20,7 +20,7 @@ tags:
 
 在 Final Cut Pro 10.1 或更高版本中，您可以在资源库中整理您的作品。资源库在同一位置可包含多个[事件](https://help.apple.com/finalcutpro/mac/10.4.4/index.html?localePath=zh_CN.lproj#/vercc5fb0c4)和[项目](https://help.apple.com/finalcutpro/mac/10.4.4/index.html?localePath=zh_CN.lproj#/verc1febc41)。首次打开 Final Cut Pro 时，它会在“影片”文件夹中创建资源库文件。当您创建新的项目或事件时，项目或事件会自动包括在活跃的资源库中。资源库记录着您的所有媒体文件、编辑决定以及相关联的元数据。
 
-![资源库示意图包含三个事件，其中可包含片段、项目或二者皆包含](/Users/weijunzeng/Documents/Work/Code/image/L0004_Libraries.png)
+![资源库示意图包含三个事件，其中可包含片段、项目或二者皆包含](https://blogpicturekoko.oss-cn-beijing.aliyuncs.com/blog/L0004_Libraries.png)
 
 您可以同时打开多个资源库，并轻松地[在资源库之间拷贝事件和项目](https://help.apple.com/finalcutpro/mac/10.4.4/index.html?localePath=zh_CN.lproj#/ver397277a3)。这使得将媒体、元数据以及具有创意的作品移动到其他系统以在移动设备上进行处理、协同编辑或归档变得简单而迅速。您可以根据需要[打开和关闭资源库](https://help.apple.com/finalcutpro/mac/10.4.4/index.html?localePath=zh_CN.lproj#/ver217d6e77d)。
 
@@ -50,7 +50,7 @@ tags:
 
 
 
-Final cut pro
+### Shortcut
  - 资源管理
     关系： 资源库  -> 事件 -> 项目
     	导入素材
@@ -110,3 +110,5 @@ Final cut pro
       - 添加 静止帧 Shift + H
       - 添加 缝隙  Option + W -> Control + D （设置帧数）
       - 从故事情节中提取不影响时间线 option +  command + 向上
+
+	
